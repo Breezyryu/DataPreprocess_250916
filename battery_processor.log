@@ -1,0 +1,554 @@
+2025-09-14 17:22:00,394 - improved_battery_processor - INFO - Processing 1 paths
+2025-09-14 17:22:00,395 - improved_battery_processor - INFO - Processing group: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명
+2025-09-14 17:22:00,405 - ToyoDataLoader - WARNING - Limiting to 10 files
+2025-09-14 17:22:00,406 - ToyoDataLoader - WARNING - Limiting to 10 files
+2025-09-14 17:22:00,440 - ToyoDataLoader - INFO - Loaded Ch30: 1726 rows
+2025-09-14 17:22:00,441 - ToyoDataLoader - INFO - Loaded Ch31: 1739 rows
+2025-09-14 17:22:00,491 - improved_battery_processor - INFO - CSV saved: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_processed.csv
+2025-09-14 17:22:00,756 - improved_battery_processor - INFO - Plot saved: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_plots.png
+2025-09-14 17:23:24,340 - improved_battery_processor - INFO - Processing 1 paths
+2025-09-14 17:23:24,341 - improved_battery_processor - INFO - Processing group: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명
+2025-09-14 17:23:24,349 - ToyoDataLoader - WARNING - Limiting to 5 files
+2025-09-14 17:23:24,351 - ToyoDataLoader - WARNING - Limiting to 5 files
+2025-09-14 17:23:24,371 - ToyoDataLoader - INFO - Loaded Ch30: 1566 rows
+2025-09-14 17:23:24,372 - ToyoDataLoader - INFO - Loaded Ch31: 1577 rows
+2025-09-14 17:23:24,403 - improved_battery_processor - INFO - CSV saved: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_processed.csv
+2025-09-14 17:23:24,637 - improved_battery_processor - INFO - Plot saved: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_plots.png
+2025-09-14 17:23:57,979 - improved_battery_processor - INFO - Processing 1 paths
+2025-09-14 17:23:57,980 - improved_battery_processor - INFO - Processing group: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명
+2025-09-14 17:23:57,988 - ToyoDataLoader - WARNING - Limiting to 3 files
+2025-09-14 17:23:57,990 - ToyoDataLoader - WARNING - Limiting to 3 files
+2025-09-14 17:23:58,010 - ToyoDataLoader - INFO - Loaded Ch30: 1171 rows
+2025-09-14 17:23:58,014 - ToyoDataLoader - INFO - Loaded Ch31: 1179 rows
+2025-09-14 17:23:58,033 - improved_battery_processor - INFO - CSV saved: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_processed.csv
+2025-09-14 17:23:58,267 - improved_battery_processor - INFO - Plot saved: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_plots.png
+2025-09-14 17:26:52,762 - improved_battery_processor - INFO - Processing 1 paths
+2025-09-14 17:26:52,763 - improved_battery_processor - INFO - Processing group: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명
+2025-09-14 17:26:52,772 - ToyoDataLoader - WARNING - Limiting to 3 files
+2025-09-14 17:26:52,773 - ToyoDataLoader - WARNING - Limiting to 3 files
+2025-09-14 17:26:52,790 - ToyoDataLoader - ERROR - Error loading channel Ch31: 'DataFrame' object has no attribute 'dtype'
+2025-09-14 17:26:52,791 - ToyoDataLoader - ERROR - Error loading channel Ch30: 'DataFrame' object has no attribute 'dtype'
+2025-09-14 17:29:12,967 - improved_battery_processor - INFO - Processing 1 paths
+2025-09-14 17:29:12,968 - improved_battery_processor - INFO - Processing group: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명
+2025-09-14 17:29:12,977 - ToyoDataLoader - WARNING - Limiting to 5 files
+2025-09-14 17:29:12,980 - ToyoDataLoader - WARNING - Limiting to 5 files
+2025-09-14 17:29:13,000 - ToyoDataLoader - ERROR - Error loading channel Ch30: 'DataFrame' object has no attribute 'str'
+2025-09-14 17:29:13,004 - ToyoDataLoader - ERROR - Error loading channel Ch31: 'DataFrame' object has no attribute 'str'
+2025-09-14 17:29:24,281 - improved_battery_processor - INFO - Processing 1 paths
+2025-09-14 17:29:24,282 - improved_battery_processor - INFO - Processing group: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명
+2025-09-14 17:29:24,291 - ToyoDataLoader - WARNING - Limiting to 3 files
+2025-09-14 17:29:24,292 - ToyoDataLoader - WARNING - Limiting to 3 files
+2025-09-14 17:29:24,306 - ToyoDataLoader - ERROR - Error loading channel Ch31: 'DataFrame' object has no attribute 'str'
+2025-09-14 17:29:24,312 - ToyoDataLoader - ERROR - Error loading channel Ch30: 'DataFrame' object has no attribute 'str'
+2025-09-14 17:30:36,979 - improved_battery_processor - INFO - Processing 1 paths
+2025-09-14 17:30:36,980 - improved_battery_processor - INFO - Processing group: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명
+2025-09-14 17:30:36,989 - ToyoDataLoader - WARNING - Limiting to 3 files
+2025-09-14 17:30:36,990 - ToyoDataLoader - WARNING - Limiting to 3 files
+2025-09-14 17:30:37,008 - ToyoDataProcessor - WARNING - Could not process column Temperature_C, skipping
+2025-09-14 17:30:37,009 - ToyoDataProcessor - WARNING - Could not process column Temperature_C, skipping
+2025-09-14 17:30:37,019 - ToyoDataLoader - ERROR - Error loading channel Ch30: unsupported operand type(s) for -: 'str' and 'str'
+2025-09-14 17:30:37,020 - ToyoDataLoader - ERROR - Error loading channel Ch31: unsupported operand type(s) for -: 'str' and 'str'
+2025-09-14 17:31:53,648 - improved_battery_processor - INFO - Processing 1 paths
+2025-09-14 17:31:53,649 - improved_battery_processor - INFO - Processing group: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명
+2025-09-14 17:31:53,658 - ToyoDataLoader - WARNING - Limiting to 3 files
+2025-09-14 17:31:53,662 - ToyoDataLoader - WARNING - Limiting to 3 files
+2025-09-14 17:31:53,670 - ToyoDataProcessor - WARNING - Could not process column Temperature_C, skipping
+2025-09-14 17:31:53,679 - ToyoDataLoader - ERROR - Error loading channel Ch30: unsupported operand type(s) for -: 'str' and 'str'
+2025-09-14 17:31:53,684 - ToyoDataProcessor - WARNING - Could not process column Temperature_C, skipping
+2025-09-14 17:31:53,688 - ToyoDataLoader - ERROR - Error loading channel Ch31: unsupported operand type(s) for -: 'str' and 'str'
+2025-09-14 17:32:41,605 - improved_battery_processor - INFO - Processing 1 paths
+2025-09-14 17:32:41,606 - improved_battery_processor - INFO - Processing group: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명
+2025-09-14 17:32:41,612 - ToyoDataLoader - WARNING - Limiting to 2 files
+2025-09-14 17:32:41,620 - ToyoDataProcessor - WARNING - Could not process column Temperature_C, skipping
+2025-09-14 17:32:41,624 - ToyoDataLoader - ERROR - Error loading channel Ch30: unsupported operand type(s) for -: 'str' and 'str'
+2025-09-14 17:32:41,630 - ToyoDataLoader - WARNING - Limiting to 2 files
+2025-09-14 17:32:41,637 - ToyoDataProcessor - WARNING - Could not process column Temperature_C, skipping
+2025-09-14 17:32:41,640 - ToyoDataLoader - ERROR - Error loading channel Ch31: unsupported operand type(s) for -: 'str' and 'str'
+2025-09-14 18:47:52,686 - improved_battery_processor - INFO - Processing 1 paths
+2025-09-14 18:47:52,687 - improved_battery_processor - INFO - Processing group: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명
+2025-09-14 18:47:52,698 - ToyoDataLoader - WARNING - Limiting to 5 files
+2025-09-14 18:47:52,701 - ToyoDataLoader - WARNING - Limiting to 5 files
+2025-09-14 18:47:52,725 - ToyoDataProcessor - WARNING - Could not process column Temperature_C, skipping
+2025-09-14 18:47:52,729 - ToyoDataProcessor - WARNING - Could not process column Temperature_C, skipping
+2025-09-14 18:47:52,740 - ToyoDataLoader - ERROR - Error loading channel Ch30: unsupported operand type(s) for -: 'str' and 'str'
+2025-09-14 18:47:52,741 - ToyoDataLoader - ERROR - Error loading channel Ch31: unsupported operand type(s) for -: 'str' and 'str'
+2025-09-14 19:04:00,312 - improved_battery_processor - INFO - Processing 1 paths
+2025-09-14 19:04:00,313 - improved_battery_processor - INFO - Processing group: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명
+2025-09-14 19:04:00,323 - ToyoDataLoader - WARNING - Limiting to 5 files
+2025-09-14 19:04:00,327 - ToyoDataLoader - WARNING - Limiting to 5 files
+2025-09-14 19:04:00,352 - ToyoDataProcessor - WARNING - Could not process column Temperature_C: 'DataFrame' object has no attribute 'str'
+2025-09-14 19:04:00,359 - ToyoDataProcessor - WARNING - Could not process column Temperature_C: 'DataFrame' object has no attribute 'str'
+2025-09-14 19:04:00,372 - ToyoDataLoader - ERROR - Error loading channel Ch31: unsupported operand type(s) for -: 'str' and 'str'
+2025-09-14 19:04:00,373 - ToyoDataLoader - ERROR - Error loading channel Ch30: unsupported operand type(s) for -: 'str' and 'str'
+2025-09-14 19:04:06,752 - improved_battery_processor - INFO - Processing 1 paths
+2025-09-14 19:04:06,753 - improved_battery_processor - INFO - Processing group: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명
+2025-09-14 19:04:06,763 - ToyoDataLoader - WARNING - Limiting to 5 files
+2025-09-14 19:04:06,766 - ToyoDataLoader - WARNING - Limiting to 5 files
+2025-09-14 19:04:06,794 - ToyoDataProcessor - WARNING - Could not process column Temperature_C: 'DataFrame' object has no attribute 'str'
+2025-09-14 19:04:06,795 - ToyoDataProcessor - WARNING - Could not process column Temperature_C: 'DataFrame' object has no attribute 'str'
+2025-09-14 19:04:06,808 - ToyoDataLoader - ERROR - Error loading channel Ch30: unsupported operand type(s) for -: 'str' and 'str'
+2025-09-14 19:04:06,809 - ToyoDataLoader - ERROR - Error loading channel Ch31: unsupported operand type(s) for -: 'str' and 'str'
+2025-09-14 19:04:28,977 - improved_battery_processor - INFO - Processing 1 paths
+2025-09-14 19:04:28,978 - improved_battery_processor - INFO - Processing group: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명
+2025-09-14 19:04:28,988 - ToyoDataLoader - WARNING - Limiting to 5 files
+2025-09-14 19:04:29,015 - ToyoDataLoader - WARNING - Limiting to 5 files
+2025-09-14 19:04:29,047 - ToyoDataProcessor - WARNING - Could not process column Temperature_C: 'DataFrame' object has no attribute 'str'
+2025-09-14 19:04:29,047 - ToyoDataProcessor - WARNING - Could not process column Temperature_C: 'DataFrame' object has no attribute 'str'
+2025-09-14 19:04:29,060 - ToyoDataLoader - ERROR - Error loading channel Ch30: unsupported operand type(s) for -: 'str' and 'str'
+2025-09-14 19:04:29,061 - ToyoDataLoader - ERROR - Error loading channel Ch31: unsupported operand type(s) for -: 'str' and 'str'
+2025-09-14 19:13:07,877 - improved_battery_processor - INFO - Processing 1 paths
+2025-09-14 19:13:07,877 - improved_battery_processor - INFO - Processing group: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명
+2025-09-14 19:13:07,887 - ToyoDataLoader - WARNING - Limiting to 5 files
+2025-09-14 19:13:07,896 - ToyoDataLoader - WARNING - Limiting to 5 files
+2025-09-14 19:13:07,921 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series, skipping
+2025-09-14 19:13:07,922 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series, skipping
+2025-09-14 19:13:07,933 - ToyoDataLoader - ERROR - Error loading channel Ch30: unsupported operand type(s) for -: 'str' and 'str'
+2025-09-14 19:13:07,935 - ToyoDataLoader - ERROR - Error loading channel Ch31: unsupported operand type(s) for -: 'str' and 'str'
+2025-09-14 19:18:10,987 - improved_battery_processor - INFO - Processing 1 paths
+2025-09-14 19:18:10,987 - improved_battery_processor - INFO - Processing group: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명
+2025-09-14 19:18:10,998 - ToyoDataLoader - WARNING - Limiting to 5 files
+2025-09-14 19:18:11,003 - ToyoDataLoader - WARNING - Limiting to 5 files
+2025-09-14 19:18:11,053 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series, skipping
+2025-09-14 19:18:11,055 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series, skipping
+2025-09-14 19:18:11,066 - ToyoDataLoader - ERROR - Error loading channel Ch30: unsupported operand type(s) for -: 'str' and 'str'
+2025-09-14 19:18:11,067 - ToyoDataLoader - ERROR - Error loading channel Ch31: unsupported operand type(s) for -: 'str' and 'str'
+2025-09-14 19:50:49,569 - improved_battery_processor - INFO - Processing 1 paths
+2025-09-14 19:50:49,570 - improved_battery_processor - INFO - Processing group: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명
+2025-09-14 19:50:49,585 - ToyoDataLoader - WARNING - Limiting to 5 files
+2025-09-14 19:50:49,602 - ToyoDataLoader - WARNING - Limiting to 5 files
+2025-09-14 19:50:49,606 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series, skipping
+2025-09-14 19:50:49,617 - ToyoDataLoader - ERROR - Error loading channel Ch31: unsupported operand type(s) for -: 'str' and 'str'
+2025-09-14 19:50:49,625 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series, skipping
+2025-09-14 19:50:49,630 - ToyoDataLoader - ERROR - Error loading channel Ch30: unsupported operand type(s) for -: 'str' and 'str'
+2025-09-14 19:50:56,281 - improved_battery_processor - INFO - Processing 1 paths
+2025-09-14 19:50:56,281 - improved_battery_processor - INFO - Processing group: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명
+2025-09-14 19:50:56,290 - ToyoDataLoader - WARNING - Limiting to 5 files
+2025-09-14 19:50:56,295 - ToyoDataLoader - WARNING - Limiting to 5 files
+2025-09-14 19:50:56,319 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series, skipping
+2025-09-14 19:50:56,320 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series, skipping
+2025-09-14 19:50:56,331 - ToyoDataLoader - ERROR - Error loading channel Ch31: unsupported operand type(s) for -: 'str' and 'str'
+2025-09-14 19:50:56,332 - ToyoDataLoader - ERROR - Error loading channel Ch30: unsupported operand type(s) for -: 'str' and 'str'
+2025-09-14 19:51:08,387 - improved_battery_processor - INFO - Processing 1 paths
+2025-09-14 19:51:08,387 - improved_battery_processor - INFO - Processing group: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명
+2025-09-14 19:51:08,396 - ToyoDataLoader - WARNING - Limiting to 5 files
+2025-09-14 19:51:08,399 - ToyoDataLoader - WARNING - Limiting to 5 files
+2025-09-14 19:51:08,441 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series, skipping
+2025-09-14 19:51:08,442 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series, skipping
+2025-09-14 19:51:08,454 - ToyoDataLoader - ERROR - Error loading channel Ch31: unsupported operand type(s) for -: 'str' and 'str'
+2025-09-14 19:51:08,454 - ToyoDataLoader - ERROR - Error loading channel Ch30: unsupported operand type(s) for -: 'str' and 'str'
+2025-09-14 19:55:31,504 - improved_battery_processor - INFO - Processing 1 paths
+2025-09-14 19:55:31,505 - improved_battery_processor - INFO - Processing group: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명
+2025-09-14 19:55:31,515 - ToyoDataLoader - WARNING - Limiting to 5 files
+2025-09-14 19:55:31,522 - ToyoDataLoader - WARNING - Limiting to 5 files
+2025-09-14 19:55:31,539 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series, skipping
+2025-09-14 19:55:31,552 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series, skipping
+2025-09-14 19:55:31,555 - ToyoDataProcessor - WARNING - Error removing outliers from Temperature_C: arg must be a list, tuple, 1-d array, or Series
+2025-09-14 19:55:31,562 - ToyoDataProcessor - WARNING - Error removing outliers from Temperature_C: arg must be a list, tuple, 1-d array, or Series
+2025-09-14 19:55:31,570 - ToyoDataProcessor - WARNING - Error calculating temperature stats for cycle 1: arg must be a list, tuple, 1-d array, or Series
+2025-09-14 19:55:31,575 - ToyoDataProcessor - WARNING - Error calculating temperature stats for cycle 1: arg must be a list, tuple, 1-d array, or Series
+2025-09-14 19:55:31,577 - ToyoDataLoader - INFO - Loaded Ch30: 1224 rows
+2025-09-14 19:55:31,578 - ToyoDataLoader - INFO - Loaded Ch31: 1230 rows
+2025-09-14 19:55:31,592 - improved_battery_processor - INFO - CSV saved: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_processed.csv
+2025-09-14 19:55:31,882 - improved_battery_processor - INFO - Plot saved: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_plots.png
+2025-09-14 19:59:44,861 - improved_battery_processor - INFO - Processing 1 paths
+2025-09-14 19:59:44,861 - improved_battery_processor - INFO - Processing group: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명
+2025-09-14 19:59:44,872 - ToyoDataLoader - WARNING - Limiting to 5 files
+2025-09-14 19:59:44,899 - ToyoDataLoader - WARNING - Limiting to 5 files
+2025-09-14 19:59:44,926 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series, skipping
+2025-09-14 19:59:44,927 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series, skipping
+2025-09-14 19:59:44,937 - ToyoDataProcessor - WARNING - Error removing outliers from Temperature_C: arg must be a list, tuple, 1-d array, or Series
+2025-09-14 19:59:44,938 - ToyoDataProcessor - WARNING - Error removing outliers from Temperature_C: arg must be a list, tuple, 1-d array, or Series
+2025-09-14 19:59:44,950 - ToyoDataProcessor - WARNING - Error calculating temperature stats for cycle 1: arg must be a list, tuple, 1-d array, or Series
+2025-09-14 19:59:44,951 - ToyoDataProcessor - WARNING - Error calculating temperature stats for cycle 1: arg must be a list, tuple, 1-d array, or Series
+2025-09-14 19:59:44,953 - ToyoDataLoader - INFO - Loaded Ch31: 1230 rows
+2025-09-14 19:59:44,954 - ToyoDataLoader - INFO - Loaded Ch30: 1224 rows
+2025-09-14 19:59:44,968 - improved_battery_processor - INFO - CSV saved: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_processed.csv
+2025-09-14 19:59:45,227 - improved_battery_processor - INFO - Plot saved: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_plots.png
+2025-09-14 20:17:09,665 - improved_battery_processor - INFO - Processing 1 paths
+2025-09-14 20:17:09,666 - improved_battery_processor - INFO - Processing group: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명
+2025-09-14 20:17:09,675 - ToyoDataLoader - INFO - Processing 496 data files for full dataset
+2025-09-14 20:17:09,677 - ToyoDataLoader - INFO - Processing batch 1: files 1-200 (40.3%)
+2025-09-14 20:17:09,680 - ToyoDataLoader - INFO - Processing 496 data files for full dataset
+2025-09-14 20:17:09,683 - ToyoDataLoader - INFO - Processing batch 1: files 1-200 (40.3%)
+2025-09-14 20:17:09,922 - ToyoDataLoader - INFO - Processing batch 2: files 201-400 (80.6%)
+2025-09-14 20:17:09,933 - ToyoDataLoader - INFO - Processing batch 2: files 201-400 (80.6%)
+2025-09-14 20:17:10,157 - ToyoDataLoader - INFO - Processing batch 3: files 401-496 (100.0%)
+2025-09-14 20:17:10,170 - ToyoDataLoader - INFO - Processing batch 3: files 401-496 (100.0%)
+2025-09-14 20:17:10,363 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series, skipping
+2025-09-14 20:17:10,406 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series, skipping
+2025-09-14 20:17:10,424 - ToyoDataProcessor - WARNING - Error removing outliers from Temperature_C: arg must be a list, tuple, 1-d array, or Series
+2025-09-14 20:17:10,435 - ToyoDataProcessor - WARNING - Error removing outliers from Temperature_C: arg must be a list, tuple, 1-d array, or Series
+2025-09-14 20:17:10,483 - ToyoDataProcessor - WARNING - Error calculating temperature stats for cycle 1: arg must be a list, tuple, 1-d array, or Series
+2025-09-14 20:17:10,489 - ToyoDataLoader - INFO - Loaded Ch30: 19345 rows
+2025-09-14 20:17:10,490 - ToyoDataProcessor - WARNING - Error calculating temperature stats for cycle 1: arg must be a list, tuple, 1-d array, or Series
+2025-09-14 20:17:10,495 - ToyoDataLoader - INFO - Loaded Ch31: 19470 rows
+2025-09-14 20:17:10,659 - improved_battery_processor - INFO - CSV saved: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_processed.csv
+2025-09-14 20:17:11,070 - improved_battery_processor - INFO - Plot saved: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_plots.png
+2025-09-14 20:28:53,626 - improved_battery_processor - INFO - Processing 1 paths
+2025-09-14 20:28:53,627 - improved_battery_processor - INFO - Processing group: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명
+2025-09-14 20:28:53,637 - ToyoDataLoader - INFO - Processing 496 data files for full dataset
+2025-09-14 20:28:53,638 - ToyoDataLoader - INFO - Processing batch 1: files 1-200 (40.3%)
+2025-09-14 20:28:53,639 - ToyoDataLoader - INFO - Processing 496 data files for full dataset
+2025-09-14 20:28:53,641 - ToyoDataLoader - INFO - Processing batch 1: files 1-200 (40.3%)
+2025-09-14 20:28:53,882 - ToyoDataLoader - INFO - Processing batch 2: files 201-400 (80.6%)
+2025-09-14 20:28:53,888 - ToyoDataLoader - INFO - Processing batch 2: files 201-400 (80.6%)
+2025-09-14 20:28:54,120 - ToyoDataLoader - INFO - Processing batch 3: files 401-496 (100.0%)
+2025-09-14 20:28:54,129 - ToyoDataLoader - INFO - Processing batch 3: files 401-496 (100.0%)
+2025-09-14 20:28:54,337 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series, skipping
+2025-09-14 20:28:54,367 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series, skipping
+2025-09-14 20:28:54,395 - ToyoDataProcessor - WARNING - Error removing outliers from Temperature_C: arg must be a list, tuple, 1-d array, or Series
+2025-09-14 20:28:54,402 - ToyoDataProcessor - WARNING - Error removing outliers from Temperature_C: arg must be a list, tuple, 1-d array, or Series
+2025-09-14 20:28:54,448 - ToyoDataProcessor - WARNING - Error calculating temperature stats for cycle 1: arg must be a list, tuple, 1-d array, or Series
+2025-09-14 20:28:54,452 - ToyoDataProcessor - WARNING - Error calculating temperature stats for cycle 1: arg must be a list, tuple, 1-d array, or Series
+2025-09-14 20:28:54,456 - ToyoDataLoader - INFO - Loaded Ch30: 19345 rows
+2025-09-14 20:28:54,459 - ToyoDataLoader - INFO - Loaded Ch31: 19470 rows
+2025-09-14 20:28:54,626 - improved_battery_processor - INFO - CSV saved: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_processed.csv
+2025-09-14 20:28:55,036 - improved_battery_processor - INFO - Plot saved: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_plots.png
+2025-09-14 21:57:07,853 - improved_battery_processor - INFO - 처리 시작 시 메모리 사용량: 31.9%
+2025-09-14 21:57:07,853 - improved_battery_processor - INFO - Processing 1 paths
+2025-09-14 21:57:07,853 - improved_battery_processor - INFO - Processing group: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명
+2025-09-14 21:57:07,863 - ToyoDataLoader - INFO - Processing 496 data files for full dataset
+2025-09-14 21:57:07,863 - ToyoDataLoader - INFO - Processing batch 1: files 1-200 (40.3%)
+2025-09-14 21:57:07,864 - ToyoDataLoader - INFO - Processing 496 data files for full dataset
+2025-09-14 21:57:07,864 - ToyoDataLoader - INFO - Processing batch 1: files 1-200 (40.3%)
+2025-09-14 21:57:08,119 - ToyoDataLoader - INFO - Processing batch 2: files 201-400 (80.6%)
+2025-09-14 21:57:08,120 - ToyoDataLoader - INFO - Processing batch 2: files 201-400 (80.6%)
+2025-09-14 21:57:08,390 - ToyoDataLoader - INFO - Processing batch 3: files 401-496 (100.0%)
+2025-09-14 21:57:08,398 - ToyoDataLoader - INFO - Processing batch 3: files 401-496 (100.0%)
+2025-09-14 21:57:08,627 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series and conversion failed: 2, skipping
+2025-09-14 21:57:08,640 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series and conversion failed: 2, skipping
+2025-09-14 21:57:08,682 - ToyoDataProcessor - WARNING - Error removing outliers from Temperature_C: arg must be a list, tuple, 1-d array, or Series
+2025-09-14 21:57:08,684 - ToyoDataProcessor - WARNING - Error removing outliers from Temperature_C: arg must be a list, tuple, 1-d array, or Series
+2025-09-14 21:57:08,735 - ToyoDataProcessor - WARNING - Error calculating temperature stats for cycle 1: arg must be a list, tuple, 1-d array, or Series
+2025-09-14 21:57:08,740 - ToyoDataProcessor - WARNING - Error calculating temperature stats for cycle 1: arg must be a list, tuple, 1-d array, or Series
+2025-09-14 21:57:08,743 - ToyoDataLoader - INFO - Loaded Ch30: 19345 rows
+2025-09-14 21:57:08,745 - ToyoDataLoader - INFO - Loaded Ch31: 19470 rows
+2025-09-14 21:57:08,904 - improved_battery_processor - INFO - CSV saved: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_processed.csv
+2025-09-14 21:57:09,329 - improved_battery_processor - INFO - Plot saved: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_plots.png
+2025-09-14 21:57:09,343 - improved_battery_processor - WARNING - 데이터 품질 검증 실패: arg must be a list, tuple, 1-d array, or Series
+2025-09-14 21:57:09,344 - improved_battery_processor - INFO - 처리 완료 시 메모리 사용량: 31.9% (변화: +0.0%)
+2025-09-14 21:57:09,344 - improved_battery_processor - INFO - 메모리 사용량이 높아 가비지 컬렉션 실행
+2025-09-14 21:57:09,371 - improved_battery_processor - INFO - 메모리 정리 완료: 31.9% 사용 중
+2025-09-14 21:58:03,642 - improved_battery_processor - INFO - 처리 시작 시 메모리 사용량: 31.7%
+2025-09-14 21:58:03,642 - improved_battery_processor - INFO - Processing 1 paths
+2025-09-14 21:58:03,643 - improved_battery_processor - INFO - Processing group: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명
+2025-09-14 21:58:03,652 - ToyoDataLoader - INFO - Processing 496 data files for full dataset
+2025-09-14 21:58:03,653 - ToyoDataLoader - INFO - Processing 496 data files for full dataset
+2025-09-14 21:58:03,653 - ToyoDataLoader - INFO - Processing batch 1: files 1-200 (40.3%)
+2025-09-14 21:58:03,653 - ToyoDataLoader - INFO - Processing batch 1: files 1-200 (40.3%)
+2025-09-14 21:58:03,918 - ToyoDataLoader - INFO - Processing batch 2: files 201-400 (80.6%)
+2025-09-14 21:58:03,925 - ToyoDataLoader - INFO - Processing batch 2: files 201-400 (80.6%)
+2025-09-14 21:58:04,208 - ToyoDataLoader - INFO - Processing batch 3: files 401-496 (100.0%)
+2025-09-14 21:58:04,216 - ToyoDataLoader - INFO - Processing batch 3: files 401-496 (100.0%)
+2025-09-14 21:58:04,470 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series and conversion failed: 2, skipping
+2025-09-14 21:58:04,474 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series and conversion failed: 2, skipping
+2025-09-14 21:58:04,522 - ToyoDataProcessor - WARNING - Error removing outliers from Temperature_C: arg must be a list, tuple, 1-d array, or Series
+2025-09-14 21:58:04,524 - ToyoDataProcessor - WARNING - Error removing outliers from Temperature_C: arg must be a list, tuple, 1-d array, or Series
+2025-09-14 21:58:04,581 - ToyoDataProcessor - WARNING - Error calculating temperature stats for cycle 1: arg must be a list, tuple, 1-d array, or Series
+2025-09-14 21:58:04,582 - ToyoDataProcessor - WARNING - Error calculating temperature stats for cycle 1: arg must be a list, tuple, 1-d array, or Series
+2025-09-14 21:58:04,590 - ToyoDataLoader - INFO - Loaded Ch30: 19345 rows
+2025-09-14 21:58:04,592 - ToyoDataLoader - INFO - Loaded Ch31: 19470 rows
+2025-09-14 21:58:04,758 - improved_battery_processor - INFO - CSV saved: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_processed.csv
+2025-09-14 21:58:05,207 - improved_battery_processor - INFO - Plot saved: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_plots.png
+2025-09-14 21:58:05,219 - improved_battery_processor - WARNING - 데이터 품질 검증 실패: arg must be a list, tuple, 1-d array, or Series
+2025-09-14 21:58:05,220 - improved_battery_processor - INFO - 처리 완료 시 메모리 사용량: 31.9% (변화: +0.2%)
+2025-09-14 21:58:05,220 - improved_battery_processor - INFO - 메모리 사용량이 높아 가비지 컬렉션 실행
+2025-09-14 21:58:05,247 - improved_battery_processor - INFO - 메모리 정리 완료: 31.9% 사용 중
+2025-09-14 21:59:25,172 - improved_battery_processor - INFO - 처리 시작 시 메모리 사용량: 31.7%
+2025-09-14 21:59:25,172 - improved_battery_processor - INFO - Processing 1 paths
+2025-09-14 21:59:25,173 - improved_battery_processor - INFO - Processing group: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명
+2025-09-14 21:59:25,181 - ToyoDataLoader - INFO - Processing 496 data files for full dataset
+2025-09-14 21:59:25,181 - ToyoDataLoader - INFO - Processing batch 1: files 1-200 (40.3%)
+2025-09-14 21:59:25,182 - ToyoDataLoader - INFO - Processing 496 data files for full dataset
+2025-09-14 21:59:25,182 - ToyoDataLoader - INFO - Processing batch 1: files 1-200 (40.3%)
+2025-09-14 21:59:25,425 - ToyoDataLoader - INFO - Processing batch 2: files 201-400 (80.6%)
+2025-09-14 21:59:25,432 - ToyoDataLoader - INFO - Processing batch 2: files 201-400 (80.6%)
+2025-09-14 21:59:25,689 - ToyoDataLoader - INFO - Processing batch 3: files 401-496 (100.0%)
+2025-09-14 21:59:25,696 - ToyoDataLoader - INFO - Processing batch 3: files 401-496 (100.0%)
+2025-09-14 21:59:25,926 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series and conversion failed: 2, skipping
+2025-09-14 21:59:25,937 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series and conversion failed: 2, skipping
+2025-09-14 21:59:26,038 - ToyoDataLoader - INFO - Loaded Ch30: 19345 rows
+2025-09-14 21:59:26,041 - ToyoDataLoader - INFO - Loaded Ch31: 19470 rows
+2025-09-14 21:59:26,207 - improved_battery_processor - INFO - CSV saved: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_processed.csv
+2025-09-14 21:59:26,615 - improved_battery_processor - INFO - Plot saved: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_plots.png
+2025-09-14 21:59:26,628 - improved_battery_processor - WARNING - 데이터 품질 검증 실패: arg must be a list, tuple, 1-d array, or Series
+2025-09-14 21:59:26,628 - improved_battery_processor - INFO - 처리 완료 시 메모리 사용량: 31.7% (변화: +0.0%)
+2025-09-14 21:59:26,628 - improved_battery_processor - INFO - 메모리 사용량이 높아 가비지 컬렉션 실행
+2025-09-14 21:59:26,653 - improved_battery_processor - INFO - 메모리 정리 완료: 31.7% 사용 중
+2025-09-14 22:00:31,335 - improved_battery_processor - INFO - 처리 시작 시 메모리 사용량: 31.6%
+2025-09-14 22:00:31,335 - improved_battery_processor - INFO - Processing 1 paths
+2025-09-14 22:00:31,336 - improved_battery_processor - INFO - Processing group: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명
+2025-09-14 22:00:31,344 - ToyoDataLoader - INFO - Processing 496 data files for full dataset
+2025-09-14 22:00:31,344 - ToyoDataLoader - INFO - Processing batch 1: files 1-200 (40.3%)
+2025-09-14 22:00:31,345 - ToyoDataLoader - INFO - Processing 496 data files for full dataset
+2025-09-14 22:00:31,345 - ToyoDataLoader - INFO - Processing batch 1: files 1-200 (40.3%)
+2025-09-14 22:00:31,590 - ToyoDataLoader - INFO - Processing batch 2: files 201-400 (80.6%)
+2025-09-14 22:00:31,597 - ToyoDataLoader - INFO - Processing batch 2: files 201-400 (80.6%)
+2025-09-14 22:00:31,857 - ToyoDataLoader - INFO - Processing batch 3: files 401-496 (100.0%)
+2025-09-14 22:00:31,865 - ToyoDataLoader - INFO - Processing batch 3: files 401-496 (100.0%)
+2025-09-14 22:00:32,083 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series and conversion failed: 2, skipping
+2025-09-14 22:00:32,115 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series and conversion failed: 2, skipping
+2025-09-14 22:00:32,198 - ToyoDataLoader - INFO - Loaded Ch30: 19345 rows
+2025-09-14 22:00:32,203 - ToyoDataLoader - INFO - Loaded Ch31: 19470 rows
+2025-09-14 22:00:32,363 - improved_battery_processor - INFO - CSV saved: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_processed.csv
+2025-09-14 22:00:32,773 - improved_battery_processor - INFO - Plot saved: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_plots.png
+2025-09-14 22:00:32,792 - data_quality_validator - INFO - Ch30 품질 점수: 80.0/100, 유효성: True
+2025-09-14 22:00:32,805 - data_quality_validator - INFO - Ch31 품질 점수: 80.0/100, 유효성: True
+2025-09-14 22:00:32,806 - improved_battery_processor - INFO - 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명 전체 품질 점수: 86.7/100
+2025-09-14 22:00:32,807 - improved_battery_processor - INFO - 처리 완료 시 메모리 사용량: 31.7% (변화: +0.1%)
+2025-09-14 22:00:32,807 - improved_battery_processor - INFO - 메모리 사용량이 높아 가비지 컬렉션 실행
+2025-09-14 22:00:32,832 - improved_battery_processor - INFO - 메모리 정리 완료: 31.7% 사용 중
+2025-09-14 22:08:26,946 - improved_battery_processor - INFO - 처리 시작 시 메모리 사용량: 32.1%
+2025-09-14 22:08:26,946 - improved_battery_processor - INFO - Processing 1 paths
+2025-09-14 22:08:26,947 - improved_battery_processor - INFO - Processing group: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명
+2025-09-14 22:08:26,956 - ToyoDataLoader - INFO - Processing 496 data files for full dataset
+2025-09-14 22:08:26,956 - ToyoDataLoader - INFO - Processing batch 1: files 1-200 (40.3%)
+2025-09-14 22:08:26,957 - ToyoDataLoader - INFO - Processing 496 data files for full dataset
+2025-09-14 22:08:26,957 - ToyoDataLoader - INFO - Processing batch 1: files 1-200 (40.3%)
+2025-09-14 22:08:27,201 - ToyoDataLoader - INFO - Processing batch 2: files 201-400 (80.6%)
+2025-09-14 22:08:27,216 - ToyoDataLoader - INFO - Processing batch 2: files 201-400 (80.6%)
+2025-09-14 22:08:27,467 - ToyoDataLoader - INFO - Processing batch 3: files 401-496 (100.0%)
+2025-09-14 22:08:27,492 - ToyoDataLoader - INFO - Processing batch 3: files 401-496 (100.0%)
+2025-09-14 22:08:27,654 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series and conversion failed: 2, skipping
+2025-09-14 22:08:27,741 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series and conversion failed: 2, skipping
+2025-09-14 22:08:27,816 - ToyoDataLoader - INFO - Loaded Ch30: 19345 rows
+2025-09-14 22:08:27,831 - ToyoDataLoader - INFO - Loaded Ch31: 19470 rows
+2025-09-14 22:08:27,860 - improved_battery_processor - INFO - 전체 데이터를 시간 순서로 정렬 완료 (38815 포인트)
+2025-09-14 22:08:28,020 - improved_battery_processor - INFO - CSV saved: outputs\250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_processed.csv
+2025-09-14 22:08:28,452 - improved_battery_processor - INFO - Plot saved: outputs\250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_plots.png
+2025-09-14 22:08:28,468 - data_quality_validator - INFO - Ch30 품질 점수: 80.0/100, 유효성: True
+2025-09-14 22:08:28,482 - data_quality_validator - INFO - Ch31 품질 점수: 80.0/100, 유효성: True
+2025-09-14 22:08:28,483 - improved_battery_processor - INFO - 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명 전체 품질 점수: 86.7/100
+2025-09-14 22:08:28,483 - improved_battery_processor - INFO - 처리 완료 시 메모리 사용량: 32.2% (변화: +0.1%)
+2025-09-14 22:08:28,483 - improved_battery_processor - INFO - 메모리 사용량이 높아 가비지 컬렉션 실행
+2025-09-14 22:08:28,511 - improved_battery_processor - INFO - 메모리 정리 완료: 32.2% 사용 중
+2025-09-15 06:24:50,281 - improved_battery_processor - INFO - 처리 시작 시 메모리 사용량: 42.8%
+2025-09-15 06:24:50,281 - improved_battery_processor - INFO - Processing 1 paths
+2025-09-15 06:24:50,282 - improved_battery_processor - INFO - Processing group: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명
+2025-09-15 06:24:50,316 - ToyoDataLoader - INFO - Processing 496 data files for full dataset
+2025-09-15 06:24:50,317 - ToyoDataLoader - INFO - Processing batch 1: files 1-200 (40.3%)
+2025-09-15 06:24:50,324 - ToyoDataLoader - INFO - Processing 496 data files for full dataset
+2025-09-15 06:24:50,324 - ToyoDataLoader - INFO - Processing batch 1: files 1-200 (40.3%)
+2025-09-15 06:24:51,633 - ToyoDataLoader - INFO - Processing batch 2: files 201-400 (80.6%)
+2025-09-15 06:24:51,646 - ToyoDataLoader - INFO - Processing batch 2: files 201-400 (80.6%)
+2025-09-15 06:24:52,921 - ToyoDataLoader - INFO - Processing batch 3: files 401-496 (100.0%)
+2025-09-15 06:24:52,941 - ToyoDataLoader - INFO - Processing batch 3: files 401-496 (100.0%)
+2025-09-15 06:24:53,586 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series and conversion failed: 2, skipping
+2025-09-15 06:24:53,694 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series and conversion failed: 2, skipping
+2025-09-15 06:24:53,799 - ToyoDataLoader - INFO - Loaded Ch31: 19470 rows
+2025-09-15 06:24:53,816 - ToyoDataLoader - INFO - Loaded Ch30: 19345 rows
+2025-09-15 06:24:53,857 - improved_battery_processor - INFO - 전체 데이터를 시간 순서로 정렬 완료 (38815 포인트)
+2025-09-15 06:24:54,047 - improved_battery_processor - INFO - CSV saved: outputs\250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_processed.csv
+2025-09-15 06:24:55,001 - improved_battery_processor - INFO - Plot saved: outputs\250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_plots.png
+2025-09-15 06:24:55,022 - data_quality_validator - INFO - Ch31 품질 점수: 80.0/100, 유효성: True
+2025-09-15 06:24:55,042 - data_quality_validator - INFO - Ch30 품질 점수: 80.0/100, 유효성: True
+2025-09-15 06:24:55,043 - improved_battery_processor - INFO - 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명 전체 품질 점수: 86.7/100
+2025-09-15 06:24:55,043 - improved_battery_processor - INFO - 처리 완료 시 메모리 사용량: 43.0% (변화: +0.2%)
+2025-09-15 06:24:55,043 - improved_battery_processor - INFO - 메모리 사용량이 높아 가비지 컬렉션 실행
+2025-09-15 06:24:55,076 - improved_battery_processor - INFO - 메모리 정리 완료: 43.0% 사용 중
+2025-09-15 08:08:21,831 - improved_battery_processor - INFO - 처리 시작 시 메모리 사용량: 21.6%
+2025-09-15 08:08:21,831 - improved_battery_processor - INFO - Processing 1 paths
+2025-09-15 08:08:21,832 - improved_battery_processor - INFO - Processing group: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명
+2025-09-15 08:08:21,840 - ToyoDataLoader - INFO - Processing 496 data files for full dataset
+2025-09-15 08:08:21,840 - ToyoDataLoader - INFO - Processing batch 1: files 1-200 (40.3%)
+2025-09-15 08:08:21,842 - ToyoDataLoader - INFO - Processing 496 data files for full dataset
+2025-09-15 08:08:21,843 - ToyoDataLoader - INFO - Processing batch 1: files 1-200 (40.3%)
+2025-09-15 08:08:22,074 - ToyoDataLoader - INFO - Processing batch 2: files 201-400 (80.6%)
+2025-09-15 08:08:22,078 - ToyoDataLoader - INFO - Processing batch 2: files 201-400 (80.6%)
+2025-09-15 08:08:22,321 - ToyoDataLoader - INFO - Processing batch 3: files 401-496 (100.0%)
+2025-09-15 08:08:22,332 - ToyoDataLoader - INFO - Processing batch 3: files 401-496 (100.0%)
+2025-09-15 08:08:22,432 - ToyoDataLoader - INFO - Sorting data by PassTime[Sec] to ensure chronological order
+2025-09-15 08:08:22,504 - ToyoDataLoader - INFO - Sorting data by PassTime[Sec] to ensure chronological order
+2025-09-15 08:08:22,529 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series and conversion failed: 2, skipping
+2025-09-15 08:08:22,592 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series and conversion failed: 2, skipping
+2025-09-15 08:08:22,663 - ToyoDataLoader - INFO - Loaded Ch30: 19345 rows
+2025-09-15 08:08:22,671 - ToyoDataLoader - INFO - Loaded Ch31: 19470 rows
+2025-09-15 08:08:22,678 - improved_battery_processor - INFO - Ch30: 시간 순서로 정렬 완료 (19345 포인트)
+2025-09-15 08:08:22,755 - improved_battery_processor - INFO - CSV saved: C:\Users\Ryu\Python_project\data\Code\DataPreprocess_250826\outputs\250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_Ch30_processed.csv
+2025-09-15 08:08:22,763 - improved_battery_processor - INFO - Ch31: 시간 순서로 정렬 완료 (19470 포인트)
+2025-09-15 08:08:22,839 - improved_battery_processor - INFO - CSV saved: C:\Users\Ryu\Python_project\data\Code\DataPreprocess_250826\outputs\250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_Ch31_processed.csv
+2025-09-15 08:08:23,244 - improved_battery_processor - INFO - Plot saved: C:\Users\Ryu\Python_project\data\Code\DataPreprocess_250826\outputs\250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_plots.png
+2025-09-15 08:08:23,259 - data_quality_validator - INFO - Ch30 품질 점수: 80.0/100, 유효성: True
+2025-09-15 08:08:23,277 - data_quality_validator - INFO - Ch31 품질 점수: 80.0/100, 유효성: True
+2025-09-15 08:08:23,278 - improved_battery_processor - INFO - 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명 전체 품질 점수: 86.7/100
+2025-09-15 08:08:23,278 - improved_battery_processor - INFO - 처리 완료 시 메모리 사용량: 21.7% (변화: +0.1%)
+2025-09-15 08:08:23,278 - improved_battery_processor - INFO - 메모리 사용량이 높아 가비지 컬렉션 실행
+2025-09-15 08:08:23,308 - improved_battery_processor - INFO - 메모리 정리 완료: 21.7% 사용 중
+2025-09-15 08:09:48,664 - improved_battery_processor - INFO - 처리 시작 시 메모리 사용량: 21.5%
+2025-09-15 08:09:48,664 - improved_battery_processor - INFO - Processing 1 paths
+2025-09-15 08:09:48,664 - improved_battery_processor - INFO - Processing group: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명
+2025-09-15 08:09:48,672 - ToyoDataLoader - INFO - Processing 496 data files for full dataset
+2025-09-15 08:09:48,673 - ToyoDataLoader - INFO - Processing batch 1: files 1-200 (40.3%)
+2025-09-15 08:09:48,674 - ToyoDataLoader - INFO - Processing 496 data files for full dataset
+2025-09-15 08:09:48,674 - ToyoDataLoader - INFO - Processing batch 1: files 1-200 (40.3%)
+2025-09-15 08:09:48,906 - ToyoDataLoader - INFO - Processing batch 2: files 201-400 (80.6%)
+2025-09-15 08:09:48,913 - ToyoDataLoader - INFO - Processing batch 2: files 201-400 (80.6%)
+2025-09-15 08:09:49,159 - ToyoDataLoader - INFO - Processing batch 3: files 401-496 (100.0%)
+2025-09-15 08:09:49,160 - ToyoDataLoader - INFO - Processing batch 3: files 401-496 (100.0%)
+2025-09-15 08:09:49,295 - ToyoDataLoader - INFO - Sorting data by Date/Time to ensure chronological order
+2025-09-15 08:09:49,302 - ToyoDataLoader - INFO - Sorting data by Date/Time to ensure chronological order
+2025-09-15 08:09:49,401 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series and conversion failed: 2, skipping
+2025-09-15 08:09:49,411 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series and conversion failed: 2, skipping
+2025-09-15 08:09:49,515 - ToyoDataLoader - INFO - Loaded Ch30: 19345 rows
+2025-09-15 08:09:49,517 - ToyoDataLoader - INFO - Loaded Ch31: 19470 rows
+2025-09-15 08:09:49,532 - improved_battery_processor - INFO - Ch30: Date/Time 기준으로 정렬 완료 (19345 포인트)
+2025-09-15 08:09:49,604 - improved_battery_processor - INFO - CSV saved: C:\Users\Ryu\Python_project\data\Code\DataPreprocess_250826\outputs\250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_Ch30_processed.csv
+2025-09-15 08:09:49,620 - improved_battery_processor - INFO - Ch31: Date/Time 기준으로 정렬 완료 (19470 포인트)
+2025-09-15 08:09:49,692 - improved_battery_processor - INFO - CSV saved: C:\Users\Ryu\Python_project\data\Code\DataPreprocess_250826\outputs\250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_Ch31_processed.csv
+2025-09-15 08:09:50,090 - improved_battery_processor - INFO - Plot saved: C:\Users\Ryu\Python_project\data\Code\DataPreprocess_250826\outputs\250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_plots.png
+2025-09-15 08:09:50,109 - data_quality_validator - INFO - Ch30 품질 점수: 80.0/100, 유효성: True
+2025-09-15 08:09:50,120 - data_quality_validator - INFO - Ch31 품질 점수: 80.0/100, 유효성: True
+2025-09-15 08:09:50,121 - improved_battery_processor - INFO - 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명 전체 품질 점수: 86.7/100
+2025-09-15 08:09:50,121 - improved_battery_processor - INFO - 처리 완료 시 메모리 사용량: 21.7% (변화: +0.2%)
+2025-09-15 08:09:50,121 - improved_battery_processor - INFO - 메모리 사용량이 높아 가비지 컬렉션 실행
+2025-09-15 08:09:50,141 - improved_battery_processor - INFO - 메모리 정리 완료: 21.7% 사용 중
+2025-09-15 08:10:53,605 - improved_battery_processor - INFO - 처리 시작 시 메모리 사용량: 21.7%
+2025-09-15 08:10:53,605 - improved_battery_processor - INFO - Processing 1 paths
+2025-09-15 08:10:53,606 - improved_battery_processor - INFO - Processing group: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명
+2025-09-15 08:10:53,615 - ToyoDataLoader - INFO - Processing 496 data files for full dataset
+2025-09-15 08:10:53,615 - ToyoDataLoader - INFO - Processing batch 1: files 1-200 (40.3%)
+2025-09-15 08:10:53,619 - ToyoDataLoader - INFO - Processing 496 data files for full dataset
+2025-09-15 08:10:53,619 - ToyoDataLoader - INFO - Processing batch 1: files 1-200 (40.3%)
+2025-09-15 08:10:53,870 - ToyoDataLoader - INFO - Processing batch 2: files 201-400 (80.6%)
+2025-09-15 08:10:53,871 - ToyoDataLoader - INFO - Processing batch 2: files 201-400 (80.6%)
+2025-09-15 08:10:54,138 - ToyoDataLoader - INFO - Processing batch 3: files 401-496 (100.0%)
+2025-09-15 08:10:54,144 - ToyoDataLoader - INFO - Processing batch 3: files 401-496 (100.0%)
+2025-09-15 08:10:54,276 - ToyoDataLoader - INFO - Sorting data by Date/Time to ensure chronological order
+2025-09-15 08:10:54,332 - ToyoDataLoader - INFO - Sorting data by Date/Time to ensure chronological order
+2025-09-15 08:10:54,385 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series and conversion failed: 2, skipping
+2025-09-15 08:10:54,422 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series and conversion failed: 2, skipping
+2025-09-15 08:10:54,509 - ToyoDataLoader - INFO - Loaded Ch31: 19470 rows
+2025-09-15 08:10:54,513 - ToyoDataLoader - INFO - Loaded Ch30: 19345 rows
+2025-09-15 08:10:54,530 - improved_battery_processor - INFO - Ch31: Date/Time 기준으로 정렬 완료 (19470 포인트)
+2025-09-15 08:10:54,605 - improved_battery_processor - INFO - CSV saved: C:\Users\Ryu\Python_project\data\Code\DataPreprocess_250826\outputs\250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_Ch31_processed.csv
+2025-09-15 08:10:54,621 - improved_battery_processor - INFO - Ch30: Date/Time 기준으로 정렬 완료 (19345 포인트)
+2025-09-15 08:10:54,694 - improved_battery_processor - INFO - CSV saved: C:\Users\Ryu\Python_project\data\Code\DataPreprocess_250826\outputs\250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_Ch30_processed.csv
+2025-09-15 08:10:55,117 - improved_battery_processor - INFO - Plot saved: C:\Users\Ryu\Python_project\data\Code\DataPreprocess_250826\outputs\250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_plots.png
+2025-09-15 08:10:55,130 - data_quality_validator - INFO - Ch31 품질 점수: 80.0/100, 유효성: True
+2025-09-15 08:10:55,142 - data_quality_validator - INFO - Ch30 품질 점수: 80.0/100, 유효성: True
+2025-09-15 08:10:55,142 - improved_battery_processor - INFO - 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명 전체 품질 점수: 86.7/100
+2025-09-15 08:10:55,143 - improved_battery_processor - INFO - 처리 완료 시 메모리 사용량: 21.8% (변화: +0.1%)
+2025-09-15 08:10:55,143 - improved_battery_processor - INFO - 메모리 사용량이 높아 가비지 컬렉션 실행
+2025-09-15 08:10:55,164 - improved_battery_processor - INFO - 메모리 정리 완료: 21.8% 사용 중
+2025-09-15 08:18:06,641 - improved_battery_processor - INFO - 처리 시작 시 메모리 사용량: 22.1%
+2025-09-15 08:18:06,641 - improved_battery_processor - INFO - Processing 1 paths
+2025-09-15 08:18:06,642 - improved_battery_processor - INFO - Processing group: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명
+2025-09-15 08:18:06,651 - ToyoDataLoader - INFO - Processing 496 data files for full dataset
+2025-09-15 08:18:06,651 - ToyoDataLoader - INFO - Processing batch 1: files 1-200 (40.3%)
+2025-09-15 08:18:06,652 - ToyoDataLoader - INFO - Processing 496 data files for full dataset
+2025-09-15 08:18:06,652 - ToyoDataLoader - INFO - Processing batch 1: files 1-200 (40.3%)
+2025-09-15 08:18:06,901 - ToyoDataLoader - INFO - Processing batch 2: files 201-400 (80.6%)
+2025-09-15 08:18:06,910 - ToyoDataLoader - INFO - Processing batch 2: files 201-400 (80.6%)
+2025-09-15 08:18:07,174 - ToyoDataLoader - INFO - Processing batch 3: files 401-496 (100.0%)
+2025-09-15 08:18:07,181 - ToyoDataLoader - INFO - Processing batch 3: files 401-496 (100.0%)
+2025-09-15 08:18:07,314 - ToyoDataLoader - INFO - Sorting data by Date/Time to ensure chronological order
+2025-09-15 08:18:07,365 - ToyoDataLoader - INFO - Sorting data by Date/Time to ensure chronological order
+2025-09-15 08:18:07,441 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series and conversion failed: 2, skipping
+2025-09-15 08:18:07,464 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series and conversion failed: 2, skipping
+2025-09-15 08:18:07,576 - ToyoDataLoader - INFO - Loaded Ch30: 19345 rows
+2025-09-15 08:18:07,578 - ToyoDataLoader - INFO - Loaded Ch31: 19470 rows
+2025-09-15 08:18:07,597 - improved_battery_processor - INFO - Ch30: Date/Time 기준으로 정렬 완료 (19345 포인트)
+2025-09-15 08:18:07,673 - improved_battery_processor - INFO - CSV saved: c:\Users\Ryu\Python_project\data\Code\DataPreprocess_250826\outputs\250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_Ch30_processed.csv
+2025-09-15 08:18:07,691 - improved_battery_processor - INFO - Ch31: Date/Time 기준으로 정렬 완료 (19470 포인트)
+2025-09-15 08:18:07,767 - improved_battery_processor - INFO - CSV saved: c:\Users\Ryu\Python_project\data\Code\DataPreprocess_250826\outputs\250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_Ch31_processed.csv
+2025-09-15 08:18:08,182 - improved_battery_processor - INFO - Plot saved: c:\Users\Ryu\Python_project\data\Code\DataPreprocess_250826\outputs\250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_plots.png
+2025-09-15 08:18:08,200 - data_quality_validator - INFO - Ch30 품질 점수: 80.0/100, 유효성: True
+2025-09-15 08:18:08,217 - data_quality_validator - INFO - Ch31 품질 점수: 80.0/100, 유효성: True
+2025-09-15 08:18:08,218 - improved_battery_processor - INFO - 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명 전체 품질 점수: 86.7/100
+2025-09-15 08:18:08,219 - improved_battery_processor - INFO - 처리 완료 시 메모리 사용량: 22.2% (변화: +0.1%)
+2025-09-15 08:18:08,219 - improved_battery_processor - INFO - 메모리 사용량이 높아 가비지 컬렉션 실행
+2025-09-15 08:18:08,252 - improved_battery_processor - INFO - 메모리 정리 완료: 22.2% 사용 중
+2025-09-15 08:21:55,638 - improved_battery_processor - INFO - 처리 시작 시 메모리 사용량: 22.0%
+2025-09-15 08:21:55,639 - improved_battery_processor - INFO - Processing 1 paths
+2025-09-15 08:21:55,639 - improved_battery_processor - INFO - Processing group: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명
+2025-09-15 08:21:55,647 - ToyoDataLoader - INFO - Processing 496 data files for full dataset
+2025-09-15 08:21:55,647 - ToyoDataLoader - INFO - Processing batch 1: files 1-200 (40.3%)
+2025-09-15 08:21:55,648 - ToyoDataLoader - INFO - Processing 496 data files for full dataset
+2025-09-15 08:21:55,650 - ToyoDataLoader - INFO - Processing batch 1: files 1-200 (40.3%)
+2025-09-15 08:21:55,879 - ToyoDataLoader - INFO - Processing batch 2: files 201-400 (80.6%)
+2025-09-15 08:21:55,885 - ToyoDataLoader - INFO - Processing batch 2: files 201-400 (80.6%)
+2025-09-15 08:21:56,131 - ToyoDataLoader - INFO - Processing batch 3: files 401-496 (100.0%)
+2025-09-15 08:21:56,135 - ToyoDataLoader - INFO - Processing batch 3: files 401-496 (100.0%)
+2025-09-15 08:21:56,267 - ToyoDataLoader - INFO - Sorting data by Date/Time to ensure chronological order
+2025-09-15 08:21:56,294 - ToyoDataLoader - INFO - Sorting data by Date/Time to ensure chronological order
+2025-09-15 08:21:56,377 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series and conversion failed: 2, skipping
+2025-09-15 08:21:56,388 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series and conversion failed: 2, skipping
+2025-09-15 08:21:56,468 - ToyoDataProcessor - INFO - 누적 시간 계산 완료: 0개 리셋 지점, 최대 19883초
+2025-09-15 08:21:56,468 - ToyoDataProcessor - INFO - 누적 시간 계산 완료: 0개 리셋 지점, 최대 19798초
+2025-09-15 08:21:56,487 - ToyoDataLoader - INFO - Loaded Ch31: 19470 rows
+2025-09-15 08:21:56,489 - ToyoDataLoader - INFO - Loaded Ch30: 19345 rows
+2025-09-15 08:21:56,505 - improved_battery_processor - INFO - Ch31: Date/Time 기준으로 정렬 완료 (19470 포인트)
+2025-09-15 08:21:56,582 - improved_battery_processor - INFO - CSV saved: C:\Users\Ryu\Python_project\data\Code\DataPreprocess_250826\outputs\250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_Ch31_processed.csv
+2025-09-15 08:21:56,598 - improved_battery_processor - INFO - Ch30: Date/Time 기준으로 정렬 완료 (19345 포인트)
+2025-09-15 08:21:56,676 - improved_battery_processor - INFO - CSV saved: C:\Users\Ryu\Python_project\data\Code\DataPreprocess_250826\outputs\250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_Ch30_processed.csv
+2025-09-15 08:21:57,104 - improved_battery_processor - INFO - Plot saved: C:\Users\Ryu\Python_project\data\Code\DataPreprocess_250826\outputs\250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_plots.png
+2025-09-15 08:21:57,119 - data_quality_validator - INFO - Ch31 품질 점수: 80.0/100, 유효성: True
+2025-09-15 08:21:57,132 - data_quality_validator - INFO - Ch30 품질 점수: 80.0/100, 유효성: True
+2025-09-15 08:21:57,133 - improved_battery_processor - INFO - 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명 전체 품질 점수: 86.7/100
+2025-09-15 08:21:57,133 - improved_battery_processor - INFO - 처리 완료 시 메모리 사용량: 22.2% (변화: +0.2%)
+2025-09-15 08:21:57,133 - improved_battery_processor - INFO - 메모리 사용량이 높아 가비지 컬렉션 실행
+2025-09-15 08:21:57,157 - improved_battery_processor - INFO - 메모리 정리 완료: 22.2% 사용 중
+2025-09-15 08:22:55,392 - improved_battery_processor - INFO - 처리 시작 시 메모리 사용량: 22.0%
+2025-09-15 08:22:55,392 - improved_battery_processor - INFO - Processing 1 paths
+2025-09-15 08:22:55,393 - improved_battery_processor - INFO - Processing group: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명
+2025-09-15 08:22:55,401 - ToyoDataLoader - INFO - Processing 496 data files for full dataset
+2025-09-15 08:22:55,401 - ToyoDataLoader - INFO - Processing batch 1: files 1-200 (40.3%)
+2025-09-15 08:22:55,404 - ToyoDataLoader - INFO - Processing 496 data files for full dataset
+2025-09-15 08:22:55,404 - ToyoDataLoader - INFO - Processing batch 1: files 1-200 (40.3%)
+2025-09-15 08:22:55,631 - ToyoDataLoader - INFO - Processing batch 2: files 201-400 (80.6%)
+2025-09-15 08:22:55,639 - ToyoDataLoader - INFO - Processing batch 2: files 201-400 (80.6%)
+2025-09-15 08:22:55,879 - ToyoDataLoader - INFO - Processing batch 3: files 401-496 (100.0%)
+2025-09-15 08:22:55,893 - ToyoDataLoader - INFO - Processing batch 3: files 401-496 (100.0%)
+2025-09-15 08:22:56,208 - ToyoDataLoader - INFO - 원시 데이터 누적 시간 계산: 1195개 리셋 지점, 최대 9215074390472473600초
+2025-09-15 08:22:56,237 - ToyoDataLoader - INFO - Sorting data by Date/Time to ensure chronological order
+2025-09-15 08:22:56,314 - ToyoDataLoader - INFO - 원시 데이터 누적 시간 계산: 1195개 리셋 지점, 최대 9222283004314765312초
+2025-09-15 08:22:56,336 - ToyoDataLoader - INFO - Sorting data by Date/Time to ensure chronological order
+2025-09-15 08:22:56,373 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series and conversion failed: 2, skipping
+2025-09-15 08:22:56,430 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series and conversion failed: 2, skipping
+2025-09-15 08:22:56,480 - ToyoDataProcessor - INFO - 누적 시간 계산 완료: 0개 리셋 지점, 최대 19798초
+2025-09-15 08:22:56,509 - ToyoDataProcessor - INFO - 누적 시간 계산 완료: 0개 리셋 지점, 최대 19883초
+2025-09-15 08:22:56,512 - ToyoDataLoader - INFO - Loaded Ch30: 19345 rows
+2025-09-15 08:22:56,522 - ToyoDataLoader - INFO - Loaded Ch31: 19470 rows
+2025-09-15 08:22:56,538 - improved_battery_processor - INFO - Ch30: Date/Time 기준으로 정렬 완료 (19345 포인트)
+2025-09-15 08:22:56,618 - improved_battery_processor - INFO - CSV saved: C:\Users\Ryu\Python_project\data\Code\DataPreprocess_250826\outputs\250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_Ch30_processed.csv
+2025-09-15 08:22:56,636 - improved_battery_processor - INFO - Ch31: Date/Time 기준으로 정렬 완료 (19470 포인트)
+2025-09-15 08:22:56,721 - improved_battery_processor - INFO - CSV saved: C:\Users\Ryu\Python_project\data\Code\DataPreprocess_250826\outputs\250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_Ch31_processed.csv
+2025-09-15 08:22:57,140 - improved_battery_processor - INFO - Plot saved: C:\Users\Ryu\Python_project\data\Code\DataPreprocess_250826\outputs\250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_plots.png
+2025-09-15 08:22:57,157 - data_quality_validator - INFO - Ch30 품질 점수: 80.0/100, 유효성: True
+2025-09-15 08:22:57,171 - data_quality_validator - INFO - Ch31 품질 점수: 80.0/100, 유효성: True
+2025-09-15 08:22:57,171 - improved_battery_processor - INFO - 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명 전체 품질 점수: 86.7/100
+2025-09-15 08:22:57,172 - improved_battery_processor - INFO - 처리 완료 시 메모리 사용량: 22.3% (변화: +0.3%)
+2025-09-15 08:22:57,172 - improved_battery_processor - INFO - 메모리 사용량이 높아 가비지 컬렉션 실행
+2025-09-15 08:22:57,195 - improved_battery_processor - INFO - 메모리 정리 완료: 22.2% 사용 중
+2025-09-15 08:23:17,933 - improved_battery_processor - INFO - 처리 시작 시 메모리 사용량: 22.1%
+2025-09-15 08:23:17,933 - improved_battery_processor - INFO - Processing 1 paths
+2025-09-15 08:23:17,934 - improved_battery_processor - INFO - Processing group: 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명
+2025-09-15 08:23:17,942 - ToyoDataLoader - INFO - Processing 496 data files for full dataset
+2025-09-15 08:23:17,942 - ToyoDataLoader - INFO - Processing batch 1: files 1-200 (40.3%)
+2025-09-15 08:23:17,943 - ToyoDataLoader - INFO - Processing 496 data files for full dataset
+2025-09-15 08:23:17,944 - ToyoDataLoader - INFO - Processing batch 1: files 1-200 (40.3%)
+2025-09-15 08:23:18,179 - ToyoDataLoader - INFO - Processing batch 2: files 201-400 (80.6%)
+2025-09-15 08:23:18,189 - ToyoDataLoader - INFO - Processing batch 2: files 201-400 (80.6%)
+2025-09-15 08:23:18,438 - ToyoDataLoader - INFO - Processing batch 3: files 401-496 (100.0%)
+2025-09-15 08:23:18,445 - ToyoDataLoader - INFO - Processing batch 3: files 401-496 (100.0%)
+2025-09-15 08:23:18,648 - ToyoDataLoader - INFO - 원시 데이터 누적 시간 계산: 1195개 리셋 지점, 최대 1052848초
+2025-09-15 08:23:18,728 - ToyoDataLoader - INFO - 원시 데이터 누적 시간 계산: 1195개 리셋 지점, 최대 1048757초
+2025-09-15 08:23:18,743 - ToyoDataLoader - INFO - Sorting data by Date/Time to ensure chronological order
+2025-09-15 08:23:18,750 - ToyoDataLoader - INFO - Sorting data by Date/Time to ensure chronological order
+2025-09-15 08:23:18,859 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series and conversion failed: 2, skipping
+2025-09-15 08:23:18,861 - ToyoDataProcessor - WARNING - Column Temperature_C is not a Series and conversion failed: 2, skipping
+2025-09-15 08:23:18,946 - ToyoDataProcessor - INFO - 누적 시간 계산 완료: 0개 리셋 지점, 최대 19883초
+2025-09-15 08:23:18,947 - ToyoDataProcessor - INFO - 누적 시간 계산 완료: 0개 리셋 지점, 최대 19798초
+2025-09-15 08:23:18,967 - ToyoDataLoader - INFO - Loaded Ch30: 19345 rows
+2025-09-15 08:23:18,969 - ToyoDataLoader - INFO - Loaded Ch31: 19470 rows
+2025-09-15 08:23:18,986 - improved_battery_processor - INFO - Ch30: Date/Time 기준으로 정렬 완료 (19345 포인트)
+2025-09-15 08:23:19,063 - improved_battery_processor - INFO - CSV saved: C:\Users\Ryu\Python_project\data\Code\DataPreprocess_250826\outputs\250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_Ch30_processed.csv
+2025-09-15 08:23:19,079 - improved_battery_processor - INFO - Ch31: Date/Time 기준으로 정렬 완료 (19470 포인트)
+2025-09-15 08:23:19,158 - improved_battery_processor - INFO - CSV saved: C:\Users\Ryu\Python_project\data\Code\DataPreprocess_250826\outputs\250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_Ch31_processed.csv
+2025-09-15 08:23:19,565 - improved_battery_processor - INFO - Plot saved: C:\Users\Ryu\Python_project\data\Code\DataPreprocess_250826\outputs\250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명_plots.png
+2025-09-15 08:23:19,582 - data_quality_validator - INFO - Ch30 품질 점수: 80.0/100, 유효성: True
+2025-09-15 08:23:19,596 - data_quality_validator - INFO - Ch31 품질 점수: 80.0/100, 유효성: True
+2025-09-15 08:23:19,596 - improved_battery_processor - INFO - 250207_250307_3_김동진_1689mAh_ATL_Q7M_Inner_2C_상온수명 전체 품질 점수: 86.7/100
+2025-09-15 08:23:19,597 - improved_battery_processor - INFO - 처리 완료 시 메모리 사용량: 22.2% (변화: +0.1%)
+2025-09-15 08:23:19,597 - improved_battery_processor - INFO - 메모리 사용량이 높아 가비지 컬렉션 실행
+2025-09-15 08:23:19,619 - improved_battery_processor - INFO - 메모리 정리 완료: 22.2% 사용 중
