@@ -5,85 +5,95 @@ from datetime import datetime
 import matplotlib.pyplot as plt
 
 # 데이터 경로
-base_path = r"Rawdata\250207_250307_3_김동진_1689mAh_ATL Q7M Inner 2C 상온수명 1-100cyc\30"
+base_path = r"Rawdata\250207_250307_3_김동진_1689mAh_ATL Q7M Inner 2C 상온수명 1-100cyc"
 
 # 모든 데이터 포인트와 모든 컬럼 수집
 all_data = []
 first_datetime = None
 total_data_points = 0
+files_processed = 0
 
 print("데이터 처리 시작...")
 
-for i in range(1, 505):
-    file_path = os.path.join(base_path, f"{i:06d}")
-    if os.path.exists(file_path):
-        with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
-            lines = f.readlines()
+# 하위 디렉토리 30과 31을 탐색
+for subdir in ['30', '31']:
+    subdir_path = os.path.join(base_path, subdir)
+    if not os.path.exists(subdir_path):
+        continue
 
-            # 헤더 라인 파싱 (4번째 줄)
-            if len(lines) > 3:
-                header_line = lines[3]
-                # Date,Time,PassTime[Sec],Voltage[V],Current[mA],,,Temp1[Deg],,,,Condition,Mode,Cycle,TotlCycle,Temp1[Deg]
+    # 각 하위 디렉토리의 파일들 처리
+    for i in range(1, 600):  # 충분한 범위로 설정
+        file_path = os.path.join(subdir_path, f"{i:06d}")
+        if os.path.exists(file_path):
+            files_processed += 1
+            with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
+                lines = f.readlines()
 
-            # 모든 데이터 라인 처리
-            for line in lines[4:]:
-                if '2025/02/' in line:
-                    parts = line.strip().split(',')
-                    if len(parts) >= 16:  # 모든 필드가 있는지 확인
-                        try:
-                            # 날짜와 시간
-                            date_str = parts[0]
-                            time_str = parts[1]
-                            datetime_str = f"{date_str} {time_str}"
-                            current_datetime = datetime.strptime(datetime_str, "%Y/%m/%d %H:%M:%S")
+                # 헤더 라인 파싱 (4번째 줄)
+                if len(lines) > 3:
+                    header_line = lines[3]
+                    # Date,Time,PassTime[Sec],Voltage[V],Current[mA],,,Temp1[Deg],,,,Condition,Mode,Cycle,TotlCycle,Temp1[Deg]
 
-                            # 첫 번째 시간 저장
-                            if first_datetime is None:
-                                first_datetime = current_datetime
+                # 모든 데이터 라인 처리
+                for line in lines[4:]:
+                    if '2025/02/' in line:
+                        parts = line.strip().split(',')
+                        if len(parts) >= 16:  # 모든 필드가 있는지 확인
+                            try:
+                                # 날짜와 시간
+                                date_str = parts[0]
+                                time_str = parts[1]
+                                datetime_str = f"{date_str} {time_str}"
+                                current_datetime = datetime.strptime(datetime_str, "%Y/%m/%d %H:%M:%S")
 
-                            # 경과 시간 계산 (시간 단위)
-                            elapsed_time = (current_datetime - first_datetime).total_seconds() / 3600.0
+                                # 첫 번째 시간 저장
+                                if first_datetime is None:
+                                    first_datetime = current_datetime
 
-                            # 모든 필드 파싱
-                            passtime_sec = int(parts[2])
-                            voltage = float(parts[3])
-                            current = float(parts[4]) if parts[4] else 0.0
-                            # parts[5], [6]는 빈 필드
-                            temp1_first = float(parts[7]) if parts[7] else 0.0
-                            # parts[8], [9], [10]은 빈 필드
-                            condition = int(parts[11])
-                            mode = int(parts[12])
-                            cycle = int(parts[13])
-                            total_cycle = int(parts[14])
-                            temp1_second = float(parts[15]) if len(parts) > 15 else 0.0
+                                # 경과 시간 계산 (시간 단위)
+                                elapsed_time = (current_datetime - first_datetime).total_seconds() / 3600.0
 
-                            all_data.append({
-                                'file_num': i,
-                                'date': date_str,
-                                'time': time_str,
-                                'datetime': current_datetime,
-                                'passtime_sec': passtime_sec,
-                                'elapsed_hours': elapsed_time,
-                                'voltage': voltage,
-                                'current': current,
-                                'temperature': temp1_first,  # 첫 번째 온도 값 사용
-                                'condition': condition,
-                                'mode': mode,
-                                'cycle': cycle,
-                                'total_cycle': total_cycle
-                            })
-                            total_data_points += 1
+                                # 모든 필드 파싱
+                                passtime_sec = int(parts[2])
+                                voltage = float(parts[3].replace('+', ''))
+                                current = float(parts[4].replace('+', '')) if parts[4] else 0.0
+                                # parts[5], [6]는 빈 필드
+                                temp1_first = float(parts[7].replace('+', '')) if parts[7] else 0.0
+                                # parts[8], [9], [10]은 빈 필드
+                                condition = int(parts[11].strip())
+                                mode = int(parts[12].strip())
+                                cycle = int(parts[13].strip())
+                                total_cycle = int(parts[14].strip())
+                                temp1_second = float(parts[15].replace('+', '')) if len(parts) > 15 else 0.0
 
-                        except (ValueError, IndexError) as e:
-                            # 파싱 에러는 무시하고 계속
-                            continue
+                                all_data.append({
+                                    'file_num': i,
+                                    'subdir': subdir,
+                                    'date': date_str,
+                                    'time': time_str,
+                                    'datetime': current_datetime,
+                                    'passtime_sec': passtime_sec,
+                                    'elapsed_hours': elapsed_time,
+                                    'voltage': voltage,
+                                    'current': current,
+                                    'temperature': temp1_first,  # 첫 번째 온도 값 사용
+                                    'condition': condition,
+                                    'mode': mode,
+                                    'cycle': cycle,
+                                    'total_cycle': total_cycle
+                                })
+                                total_data_points += 1
 
-    # 진행 상황 표시
-    if i % 50 == 0:
-        print(f"처리 중... {i}/504 파일 완료")
+                            except (ValueError, IndexError) as e:
+                                # 파싱 에러는 무시하고 계속
+                                continue
+
+            # 진행 상황 표시
+            if files_processed % 50 == 0:
+                print(f"처리 중... {files_processed} 파일 완료 (디렉토리 {subdir})")
 
 print(f"\n처리 완료!")
-print(f"총 읽은 파일 수: {i}")
+print(f"총 읽은 파일 수: {files_processed}")
 print(f"총 데이터 포인트: {total_data_points}")
 
 if all_data:
