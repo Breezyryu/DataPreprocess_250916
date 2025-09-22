@@ -8,6 +8,15 @@ matplotlib.rcParams['font.family'] = 'DejaVu Sans'
 matplotlib.rcParams['axes.unicode_minus'] = False
 
 # 데이터 경로 목록
+'''
+data_paths = [
+    r"Rawdata\250207_250307_3_김동진_1689mAh_ATL Q7M Inner 2C 상온수명 1-100cyc",
+    r"Rawdata\250219_250319_3_김동진_1689mAh_ATL Q7M Inner 2C 상온수명 101-200cyc",
+    r"Rawdata\250304_250404_3_김동진_1689mAh_ATL Q7M Inner 2C 상온수명 201-300cyc",
+    r"Rawdata\250317_251231_3_김동진_1689mAh_ATL Q7M Inner 2C 상온수명 301-400cyc"
+]
+'''
+
 data_paths = [
     r"Rawdata\250207_250307_3_김동진_1689mAh_ATL Q7M Inner 2C 상온수명 1-100cyc",
     r"Rawdata\250219_250319_3_김동진_1689mAh_ATL Q7M Inner 2C 상온수명 101-200cyc",
@@ -15,9 +24,12 @@ data_paths = [
     r"Rawdata\250317_251231_3_김동진_1689mAh_ATL Q7M Inner 2C 상온수명 301-400cyc"
 ]
 
+
 # 모든 데이터 포인트와 모든 컬럼 수집
 all_data = []
 first_datetime = None
+last_datetime = None  # 마지막 시간 추적
+last_elapsed = 0  # 마지막 elapsed time 추적
 total_data_points = 0
 files_processed = 0
 
@@ -27,6 +39,9 @@ print(f"처리할 경로 수: {len(data_paths)}\n")
 # 각 경로별로 처리
 for path_idx, base_path in enumerate(data_paths, 1):
     print(f"\n[{path_idx}/{len(data_paths)}] 처리 중: {os.path.basename(base_path)}")
+
+    # path별 첫 번째 데이터의 실제 시간을 저장할 변수
+    path_first_datetime = None
 
     # 각 경로에서 존재하는 하위 디렉토리 찾기
     subdirs_to_check = ['30', '31']  # 기본 디렉토리
@@ -86,12 +101,16 @@ for path_idx, base_path in enumerate(data_paths, 1):
                                 datetime_str = f"{date_str} {time_str}"
                                 current_datetime = datetime.strptime(datetime_str, "%Y/%m/%d %H:%M:%S")
 
-                                # 첫 번째 시간 저장
+                                # 전체 데이터의 첫 번째 시간 저장
                                 if first_datetime is None:
                                     first_datetime = current_datetime
 
-                                # 경과 시간 계산 (시간 단위)
-                                elapsed_time = (current_datetime - first_datetime).total_seconds() / 3600.0
+                                # 현재 path의 첫 번째 데이터 시간 저장
+                                if path_first_datetime is None:
+                                    path_first_datetime = current_datetime
+
+                                # 임시로 elapsed_time은 0으로 설정 (나중에 재계산)
+                                elapsed_time = 0
 
                                 # 모든 필드 파싱
                                 passtime_sec = int(parts[2])
@@ -135,6 +154,13 @@ for path_idx, base_path in enumerate(data_paths, 1):
             if files_processed % 50 == 0:
                 print(f"  처리 중... {files_processed} 파일 완료 (경로 {path_idx}, 디렉토리 {subdir})")
 
+    # 현재 path 처리 완료 후 마지막 elapsed time 업데이트
+    if all_data:
+        # 현재 path의 마지막 elapsed_time을 저장
+        path_data = [d for d in all_data if d['path_idx'] == path_idx]
+        if path_data:
+            last_elapsed = max(d['elapsed_hours'] for d in path_data)
+
 print(f"\n처리 완료!")
 print(f"총 읽은 파일 수: {files_processed}")
 print(f"총 데이터 포인트: {total_data_points}")
@@ -172,9 +198,60 @@ if all_data:
     # 경로별 순차 정렬 (path_idx 기준)
     df = df.sort_values(['path_idx', 'channel', 'datetime'])
 
-    # 전체 시작 시간 재설정 (첫 번째 데이터 포인트 기준)
-    first_datetime = df['datetime'].min()
-    df['elapsed_hours'] = (df['datetime'] - first_datetime).dt.total_seconds() / 3600.0
+    # elapsed_hours를 연속적으로 재계산 (Path 간 공백 없이)
+    print("\nElapsed time을 연속적으로 재계산 중 (Path 간 공백 제거)...")
+
+    # 각 path의 첫 번째와 마지막 데이터 시간 찾기
+    path_times = {}
+    for path_idx in sorted(df['path_idx'].unique()):
+        path_data = df[df['path_idx'] == path_idx]
+        path_times[path_idx] = {
+            'first': path_data['datetime'].min(),
+            'last': path_data['datetime'].max()
+        }
+
+    # 전체 데이터 기준 시작 시간
+    global_start = df['datetime'].min()
+
+    # Path 간 실제 시간 간격 확인 및 flag 표시
+    print("\n=== Path 간 실제 시간 간격 분석 ===")
+    for i in range(1, len(path_times)):
+        if i in path_times and (i+1) in path_times:
+            gap_hours = (path_times[i+1]['first'] - path_times[i]['last']).total_seconds() / 3600.0
+            if gap_hours > 1.0:  # 1시간 이상 차이가 있으면 표시
+                print(f"⚠️ Path {i}와 Path {i+1} 사이 실제 시간 간격: {gap_hours:.2f} hours")
+                print(f"   Path {i} 종료: {path_times[i]['last']}")
+                print(f"   Path {i+1} 시작: {path_times[i+1]['first']}")
+
+    # 각 path별 누적 시간 계산 (연속적으로, 공백 없이)
+    cumulative_hours = 0
+    for path_idx in sorted(df['path_idx'].unique()):
+        path_mask = df['path_idx'] == path_idx
+        path_data = df[path_mask].copy()
+
+        if path_idx == 1:
+            # 첫 번째 path는 0부터 시작
+            df.loc[path_mask, 'elapsed_hours'] = (
+                (df.loc[path_mask, 'datetime'] - path_times[path_idx]['first']).dt.total_seconds() / 3600.0
+            )
+        else:
+            # 이전 path의 마지막 elapsed_hours 값 가져오기
+            prev_path_data = df[df['path_idx'] == path_idx - 1]
+            prev_max_elapsed = prev_path_data['elapsed_hours'].max()
+
+            # 현재 path의 시작 시간
+            path_start = path_times[path_idx]['first']
+
+            # 현재 path 내에서의 상대 시간을 이전 누적 시간에 바로 이어서 추가
+            # (실제 시간 간격 무시하고 연속적으로 처리)
+            # Path 간 작은 간격(0.01 hours)을 추가하여 완전히 연속적으로 만듦
+            df.loc[path_mask, 'elapsed_hours'] = (
+                prev_max_elapsed + 0.01 +  # Path 간 최소 간격 추가
+                (df.loc[path_mask, 'datetime'] - path_start).dt.total_seconds() / 3600.0
+            )
+
+    print(f"\nElapsed time 재계산 완료 (연속 처리): 총 {df['elapsed_hours'].max():.2f} hours")
+    print("※ 실제 시간 간격이 있는 경우 위에 ⚠️ 표시됨")
 
     # 채널별 데이터 분리
     ch30_data = df[df['channel'] == 30]
@@ -185,7 +262,7 @@ if all_data:
 
     # 전체 데이터 시각화 (채널 구분)
     fig, axes = plt.subplots(3, 2, figsize=(16, 12))
-    fig.suptitle(f'Complete Raw Data Analysis - Total {total_data_points} points (Ch30: {len(ch30_data)}, Ch31: {len(ch31_data)})', fontsize=14)
+    fig.suptitle(f'Complete Raw Data Analysis (Continuous Time) - Total {total_data_points} points (Ch30: {len(ch30_data)}, Ch31: {len(ch31_data)})', fontsize=14)
 
     # 1. Voltage vs Time (채널별 구분)
     ax1 = axes[0, 0]
@@ -353,6 +430,13 @@ if all_data:
     ch31_data.to_csv('outputs/channel_31_data.csv', index=False)
     print(f"채널 30 데이터가 'outputs/channel_30_data.csv'에 저장되었습니다.")
     print(f"채널 31 데이터가 'outputs/channel_31_data.csv'에 저장되었습니다.")
+
+    # 연속적인 elapsed time이 적용된 데이터도 저장 (Path 간 공백 제거)
+    df_continuous = df.copy()
+    df_continuous.to_csv('outputs/complete_raw_data_continuous.csv', index=False)
+    ch30_data.to_csv('outputs/channel_30_continuous.csv', index=False)
+    ch31_data.to_csv('outputs/channel_31_continuous.csv', index=False)
+    print(f"연속적인 elapsed time이 적용된 데이터가 저장되었습니다 (Path 간 공백 제거됨).")
 
     print(f"저장된 컬럼: {', '.join(df.columns)}")
 
